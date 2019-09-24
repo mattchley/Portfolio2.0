@@ -13,7 +13,6 @@ body{
 
 .container{
   background-color: #ffffff;
-  padding:;
 }
 
 #Content{
@@ -21,18 +20,21 @@ body{
 }
 
 /* Header */
+.top{
+  background-color: #ffffff;
+  padding: 30px;
+  border-bottom: 3px solid #ddd;
+}
+
 .logo{
-  font-weight: bold;
   color: #ffffff;
   background-color: #4aaaa5;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
-
 }
 header{
   position: relative;
   top: 0;
   max-width: 100%;
-
 }
 
 /* Footer */
@@ -57,12 +59,25 @@ header{
   bottom: 15px;
 }
 
+.card-text{
+  color: #ffffff;
+}
+
 /* Contact */
 
 #exampleFormControlInput3{
   height: 200px;
 }
+#submitbtn{
+  background-color: #4aaaa5;
+  padding: 10px;
+  width: 100px;  
+  border: 3px solid #ddd;
 
+}
+form{
+  padding: 10px;
+}
 
 /* nav a { */
 	display: inline-block;
